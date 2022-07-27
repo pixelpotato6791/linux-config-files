@@ -7,11 +7,6 @@ set shiftwidth=4
 set mouse=a
 set encoding=UTF-8
 
-set t_Co=256
-set cursorline
-colorscheme onehalflight
-let g:airline_theme='onehalfdark'
-
 call plug#begin()
 
   Plug 'vim-airline/vim-airline'
@@ -21,6 +16,11 @@ call plug#begin()
   Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 call plug#end()
+
+set t_Co=255
+set cursorline
+colorscheme onehalfdark
+let g:airline_theme='onehalfdark'
 
 " NERDTree toggle keybind
 nmap <C-g> :NERDTreeToggle<CR>
