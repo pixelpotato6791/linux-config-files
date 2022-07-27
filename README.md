@@ -1,1 +1,1 @@
-# Verious config files for Linux and other FOSS stuff
+# Various config files for Linux and other FOSS stuff
