@@ -1,8 +1,11 @@
 # Set up the prompt
 
-autoload -Uz promptinit
-promptinit
-prompt redhat 
+#autoload -Uz promptinit
+#promptinit
+#prompt redhat 
+
+PROMPT="[%t] %F{green}%n@%m%f 
+%~ > "
 
 setopt histignorealldups sharehistory
 
