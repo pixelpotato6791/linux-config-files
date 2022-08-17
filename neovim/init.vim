@@ -13,14 +13,11 @@ call plug#begin()
   Plug 'airblade/vim-gitgutter'
   Plug 'preservim/nerdtree'
   Plug 'tpope/vim-fugitive'
-  Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 call plug#end()
 
 set t_Co=255
 set cursorline
-colorscheme onehalfdark
-let g:airline_theme='onehalfdark'
 
 " NERDTree toggle keybind
 nmap <C-g> :NERDTreeToggle<CR>
