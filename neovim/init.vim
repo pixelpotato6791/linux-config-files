@@ -23,3 +23,5 @@ set cursorline
 nmap <C-g> :NERDTreeToggle<CR>
 " Start NERDTree and put the cursor back in the other window.
 autocmd VimEnter * NERDTree | wincmd p
+
+let g:airline#extensions#tabline#enabled = 1
